@@ -10,6 +10,11 @@
   .page-wrapper{
       position: relative;
   }
+  .wrap-test{
+    padding-top: 200px;
+    overflow: hidden;
+    
+}
 body{
     background:black;
     width: 100vw;
@@ -25,18 +30,24 @@ body{
     margin-top: 0px;
     display: flex;
     align-items: center;
+    background: #000;
+  
+    
 }
 #header-img{
     width: 350px;
     height: auto;
     display: block;
-    padding: 60px;
+    padding-left: 60px;
 }
 /*  NAVBAR */
 
 #nav-bar{
     display: flex;
-    padding-left: 60px;
+    padding-left: 150px;
+    justify-content:space-between ;
+    
+    
   
    
 }
@@ -44,7 +55,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    justify-items: center;
 }
 
 li{
@@ -52,15 +63,195 @@ li{
   padding-right: 60px;
   letter-spacing: 1px;
    align-items: center;
+   
 }
 a{
     color: white;
-    font-size: 30px;
+    font-size: 32px;
   
 }
 
 /*FORM SECTION */
 #form-section{
-    padding: auto;
-    position: relative;
+    
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+#smart-png{
+    width: 600px;
+    height: auto;
+    margin-left: 40px;
+    display: block;
+ 
+ 
+    
+}
+
+.leform{
+ 
+    flex-direction: column;
+    
+   
+}
+
+.left{
+    width: 50%;
+    height: auto;
+    margin-left: 40px;
+}
+.right{
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#form-title{
+    color: white;
+}
+.lediviseur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+#submit{
+ height:30px ;
+ font-family: "Montserrat";
+ font-weight: bold;
+ padding: 3px;
+vertical-align: middle;}
+
+p{
+    color: white;
+}
+
+#howitworks-section{
+    width: 100%;
+    height: auto;
+}
+#video{
+    width: 600px;
+    height: auto;
+}
+
+
+
+/*PRE ORDER SECTION*/
+
+#pricing-section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.config-smart{
+      width: 100%;
+      height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.sideview{
+    width: 400px;
+    height: 200px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 200 ;
+    align-items: center;
+    margin-left: 50px;
+}
+.smart-description{
+   
+    text-align: start;
+    align-items: center;
+    margin-top: 40px;
+   
+    line-height: 25px;
+    margin-left: 180px;
+}
+.btn{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background-color:transparent;
+    border-radius:10px;
+    border:1px solid rgb(214, 172, 32);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:rgb(214, 172, 32);
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-top: 20px;
+   
+}
+.btn:hover{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background-color: #f8cb00;
+    
+    border-radius:10px;
+    border:1px solid rgb(217, 220, 226);
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b6912a;
+   
+}
+
+/* LEASING */
+
+.imgcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 0;
+    padding-top:0;
+  
+}
+.resize{
+    width: 800px;
+    height: auto;
+   
+    display: block;
+    flex-direction: row-reverse;
+}
+
+/* ELECTRIC*/
+
+#electric{
+    width: 100%;
+    height: auto;
+}
+.coverimg{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 0;
+   
+
 }
